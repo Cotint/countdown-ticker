@@ -63,7 +63,14 @@
 }
 /* Screen small than 480 */
 @media (max-width : 480px){
-	
+	.class-input{
+		direction:rtl;
+		margin-left: -40px !important;
+	}
+	.form-src-btn{
+		margin-left: -7px !important;
+		height: 35px !important;
+	}
     .page .content .clock {
 		transform: scale(0.5) translateX(-100%) translateY(-100%);
 		position: absolute;
